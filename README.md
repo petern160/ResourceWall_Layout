@@ -124,3 +124,25 @@ Given: User is logged in want to update user profile data
 When: click on "Account Settings" button/icon
 Then: take to new page where can upate first name, last name, picture, password (dont need to check on login). **Email (user_id) cannot be changed.**
 
+### EXTRA FEATURES 1 - Calendar reminder
+User story: 
+user should be able to set calendar reminders
+
+Scenario:
+Given: user is logged in and sees a posts that they like to be reminded at a later date 
+When: click on reminder icon (on the post)
+Then: 
+- takes to new page showing a calendar, 
+- selects a date and time for reminder
+- and set reminder through SMS text/ or email
+
+### EXTRA FEATURES 2 - Share post button
+user story: 
+User should be able to share a post to anyone
+
+Scenario:
+Given: User is logged in and want to share a post 
+When: click on share icon (on post)
+Then: will show a link that can be copied and shared with others
+
+
