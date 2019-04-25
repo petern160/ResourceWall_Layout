@@ -34,9 +34,9 @@ User story:
 users should be able to save an external URL along with a title and description
 
 Scenario: 
-Given i have external website to save, 
-When i tap the create post icon,
-Then it shows me a form with: title, description, URL link, (optional) image link?
+Given: i have external website to save, 
+When: i tap the create post icon,
+Then: it shows me a form with: title, description, URL link, (optional) image link?
 
 *need to check if all required field are typed in
 
@@ -69,18 +69,18 @@ Then: opens up a text area to type in comment and submit
 
 ### Feature 5 + 6:
 User story:
-users should be able to (5) rate any resource and (6) like any resource
+users should be able to (5) rate any resource and (6) bookmark any resource
 
 Scenario:
 Given: user is looking at a posts and decides to 
 - (5) rate the post
-- (6) like the post
+- (6) bookmark the post
 When: 
 - (5) Clicking on UP and DOWN arrows (reddit style)
-- (6) Clicking on the like icon (heart icon or check mark)  
+- (6) Clicking on the bookmark icon  
 Then: 
 - (5) The counter will update accourding to UP/DOWN arrow
-- (6) The like icon will be filled/changed and added to the user's liked post collection 
+- (6) The bookmark icon will be filled/changed and added to the user's liked post collection 
 
 ### Feature 7:
 User story:
